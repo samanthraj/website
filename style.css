@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Bungee+Outline&family=Libre+Caslon+Display&family=MonteCarlo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Qwigley&display=swap');
+
+*{
+    margin: 0px;
+    border:0px;
+    
+
+}
+ul{
+    list-style: none;
+}
+
+body{
+  
+    
+    background-color: white;
+}
+/* nav bar  */
+.container{
+    height:60px;
+    width:100%;
+font-weight: bold;
+   color:#2B2B28;
+    font-size: 14px;
+   text-shadow: 0cap;
+    z-index:100;
+   background-color:white;
+    display:flex;
+   justify-content: right;
+   margin-right: 10px;
+  
+}
+a{
+    text-decoration: none;
+    color:#333333;
+    
+}
+#icon{
+    font-size: 36px;
+    color: #AB954F;
+    position: absolute;
+    left:10px;
+    font-family: Libre Caslon Display ;
+    top:10px;
+}
+
+
+
+#title{
+color:#333333;
+position: absolute;
+left:65px;
+top:10px;
+font-size: 28px;
+font-weight: lighter;
+font-family: Libre Caslon Display ;
+}
+.nav{
+    display: flex;
+
+    width:500px;
+    height:40px;
+   justify-content: space-around;
+    color:#333333;
+    margin-top: 20px;
+    font-family: overlock;
+}
+.seperate{
+  margin-top: 1px;
+    height:15px;
+    width:1px;
+    background-color: #333333;
+}
+
+
+
+.info{
+    background-color: #333333;
+    color: white;
+    display: flex;
+    height:40px;
+    width: 100%;
+    font-family: overlock;
+    justify-content: space-between;
+
+
+}
+.second{
+    display: flex;
+    
+    justify-content: center;
+  align-items: center;
+  
+}
+.size{
+  display: flex;
+justify-content: center;
+align-items: center;
+    width: 100px;
+    height:40px;
+    
+}
+.size:hover {
+    background-color: white;
+    color: #333333;
+   
+}
+
+.j{
+font-size: 20px;
+text-align: center;
+transform: rotatex(180 deg);
+margin-left: 5px;
+margin-top: 5px;
+
+}
+
+.first{
+    display: flex;
+}
+
+/* dis */
+
+
+.dis{
+    width:100%;
+    height:500px;
+    display: flex;
+   
+}
+
+.about{
+display: none;
+height:200px;
+width:100%;
+background-color: white;
+}
+
+.about p{
+    font-weight: bold;
+    color: #333333;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.about ul li{
+    color: #333333;
+    margin-top: 10px;
+   
+}
+.about ul :hover{
+    color:#9a790c;
+}
+.room{
+    display: flex;
+    background-color: white;
+}
+.titl{
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: Libre Caslon Display ;
+
+}
+
+.space{
+    margin-top: 10px;
+}
+.space:hover{
+    color: #AB954F;
+}
+.room{
+    width:100%;
+    display: none; 
+}
+.dining{
+    background-color: white;
+    display: flex; 
+    
+}
+.dining{
+     display: none; 
+     width:100%;
+}
+.dining .second-li{
+    margin-left: 70px;
+}
+.Experience{
+    display:flex;
+    background-color: white;
+}
+.Experience{
+    width:100%;
+    display:none;
+}
+.dis{
+    height:250px;
+    width:100%;
+    
+}
+
+.Event{
+    width:100%;
+    display: flex;
+    background-color: white;
+}
+.Event{
+    display: none;
+}
+.info .first #about:hover + .dis .about {
+    display: block;
+    /* Add any other styles you need */
+}
+.flex-box{
+    z-index:100;
+    height:200px;
+   background-color: white;
+   z-index: -600;
+}
+
+
+
+
+
+
+/* carosol */
+.carosol{
+    height:800px;
+    width:100%;
+    background-color:#2B2B28;
+    position: absolute;
+    top:100px;
+    z-index: -100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.court{
+    height:755px;
+    width:1113.25px;
+   
+    display:flex;
+    overflow: hidden;
+}
+.court img{
+    height:755px;
+    width:1113.25px;
+
+}
+.odl{
+    height:30px;
+    width:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #be9718;
+    color: white;
+    position: absolute;
+    left: 20px;
+    top : 300px;
+    
+   
+}
+.odr{
+    
+    height:30px;
+    width:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #be9718;
+    color: white;
+    position: absolute;
+    right: 20px;
+    top : 300px;
+   
+}
+.reser_back{
+   position:relative;
+  left:3px;
+    width:1260px;
+    height:605px;
+    background-image: url("aussieactive-VxFQCqaI7pk-unsplash.jpg");
+    background-size: contain;
+   
+}
+/* Style the form container */
+#formpop {
+   position: relative;
+   bottom: 500px;
+  
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+   z-index: 100;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style the form labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Style the form inputs */
+  input[type="text"],
+  input[type="date"],
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Style the submit button */
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #9a790c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+
+ 
+  
+
